@@ -1,0 +1,14 @@
+{
+	"node7.matrixserver.fun" : {
+		"totalUploadBytes" : 7108764,
+		"totalDownloadBytes" : 322454436
+	},
+	"node2.matrixserver.fun" : {
+		"totalUploadBytes" : 8230696,
+		"totalDownloadBytes" : 426815903
+	},
+	"node11.matrixserver.fun" : {
+		"totalUploadBytes" : 425492,
+		"totalDownloadBytes" : 12280837
+	}
+}

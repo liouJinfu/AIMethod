@@ -1,0 +1,92 @@
+{
+	"configs" : [
+		{
+			"remarks" : "",
+			"id" : "7FFCECA2D66DFD1CF95EA9E98BB2E1A4",
+			"server" : "node11.matrixserver.fun",
+			"server_port" : 18842,
+			"server_udp_port" : 1080,
+			"password" : "DJ66u8",
+			"method" : "aes-256-cfb",
+			"protocol" : "origin",
+			"protocolparam" : "",
+			"obfs" : "plain",
+			"obfsparam" : "",
+			"remarks_base64" : "",
+			"group" : "美国洛杉矶",
+			"enable" : true,
+			"udp_over_tcp" : false
+		},
+		{
+			"remarks" : "",
+			"id" : "1C18CE9FC5ADB4AF8A28099AB70536F0",
+			"server" : "node7.matrixserver.fun",
+			"server_port" : 18842,
+			"server_udp_port" : 0,
+			"password" : "DJ66u8",
+			"method" : "aes-256-cfb",
+			"protocol" : "origin",
+			"protocolparam" : "",
+			"obfs" : "plain",
+			"obfsparam" : "",
+			"remarks_base64" : "",
+			"group" : "香港风行节点 田心",
+			"enable" : true,
+			"udp_over_tcp" : false
+		},
+		{
+			"remarks" : "",
+			"id" : "1CF8441C5C3DEBFB8D600E31F4A56B90",
+			"server" : "node2.matrixserver.fun",
+			"server_port" : 18842,
+			"server_udp_port" : 1080,
+			"password" : "DJ66u8",
+			"method" : "aes-256-cfb",
+			"protocol" : "origin",
+			"protocolparam" : "",
+			"obfs" : "plain",
+			"obfsparam" : "",
+			"remarks_base64" : "",
+			"group" : "香港风行节点 田心",
+			"enable" : true,
+			"udp_over_tcp" : true
+		}
+	],
+	"index" : 0,
+	"random" : true,
+	"sysProxyMode" : 3,
+	"shareOverLan" : false,
+	"localPort" : 1080,
+	"localAuthPassword" : "U9lheAHqG2HX7eUwsMJP",
+	"dnsServer" : "",
+	"reconnectTimes" : 2,
+	"balanceAlgorithm" : "LowException",
+	"randomInGroup" : false,
+	"TTL" : 0,
+	"connectTimeout" : 5,
+	"proxyRuleMode" : 2,
+	"proxyEnable" : false,
+	"pacDirectGoProxy" : false,
+	"proxyType" : 0,
+	"proxyHost" : null,
+	"proxyPort" : 0,
+	"proxyAuthUser" : null,
+	"proxyAuthPass" : null,
+	"proxyUserAgent" : null,
+	"authUser" : null,
+	"authPass" : null,
+	"autoBan" : false,
+	"sameHostForSameTarget" : false,
+	"keepVisitTime" : 180,
+	"isHideTips" : true,
+	"nodeFeedAutoUpdate" : true,
+	"serverSubscribes" : [
+
+	],
+	"token" : {
+
+	},
+	"portMap" : {
+
+	}
+}

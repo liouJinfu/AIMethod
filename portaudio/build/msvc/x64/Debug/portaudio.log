@@ -1,0 +1,47 @@
+﻿  pa_allocation.c
+  pa_converters.c
+  pa_cpuload.c
+  pa_debugprint.c
+  pa_dither.c
+  pa_front.c
+  pa_process.c
+  pa_ringbuffer.c
+  pa_stream.c
+  pa_win_ds.c
+  pa_win_ds_dynlink.c
+  pa_hostapi_skeleton.c
+  pa_win_wasapi.c
+  pa_win_wdmks.c
+  pa_win_wmme.c
+..\..\src\hostapi\wmme\pa_win_wmme.c(676): warning C4312: “类型转换”: 从“int”转换到更大的“HWAVEIN”
+..\..\src\hostapi\wmme\pa_win_wmme.c(685): warning C4312: “类型转换”: 从“int”转换到更大的“HWAVEIN”
+..\..\src\hostapi\wmme\pa_win_wmme.c(806): warning C4312: “类型转换”: 从“int”转换到更大的“HWAVEOUT”
+..\..\src\hostapi\wmme\pa_win_wmme.c(815): warning C4312: “类型转换”: 从“int”转换到更大的“HWAVEOUT”
+..\..\src\hostapi\wmme\pa_win_wmme.c(1020): warning C4312: “类型转换”: 从“UINT”转换到更大的“HWAVEIN”
+..\..\src\hostapi\wmme\pa_win_wmme.c(1024): warning C4312: “类型转换”: 从“UINT”转换到更大的“HWAVEOUT”
+  pa_win_hostapis.c
+  pa_win_util.c
+  pa_win_waveformat.c
+  pa_win_wdmks_utils.c
+  pa_x86_plain_converters.c
+  正在生成代码...
+  asio.cpp
+  combase.cpp
+  debugmessage.cpp
+  register.cpp
+  ASIOConvertSamples.cpp
+  asiodrivers.cpp
+  asiolist.cpp
+..\..\src\hostapi\asio\ASIOSDK\host\pc\asiolist.cpp(24): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+..\..\src\hostapi\asio\ASIOSDK\host\pc\asiolist.cpp(31): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  pa_asio.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\scripts\portaudio\build\msvc\x64\Debug\portaudio_x86.dll) does not match the Linker's OutputFile property value (D:\scripts\portaudio\build\msvc\Debug_x86\portaudio_x86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 .\Debug_x86\portaudio_x86.lib 和对象 .\Debug_x86\portaudio_x86.exp
+pa_asio.obj : error LNK2019: 无法解析的外部符号 PaWinUtil_CoInitialize，该符号在函数 PaAsio_ShowControlPanel 中被引用
+pa_win_ds.obj : error LNK2001: 无法解析的外部符号 PaWinUtil_CoInitialize
+pa_win_wasapi.obj : error LNK2001: 无法解析的外部符号 PaWinUtil_CoInitialize
+pa_asio.obj : error LNK2019: 无法解析的外部符号 PaWinUtil_CoUninitialize，该符号在函数 PaAsio_ShowControlPanel 中被引用
+pa_win_ds.obj : error LNK2001: 无法解析的外部符号 PaWinUtil_CoUninitialize
+pa_win_wasapi.obj : error LNK2001: 无法解析的外部符号 PaWinUtil_CoUninitialize
+./Debug_x86/portaudio_x86.dll : fatal error LNK1120: 2 个无法解析的外部命令
